@@ -64,7 +64,7 @@ public class HtmlParseData implements ParseData {
     }
 
     public String getMetaTagValue(String metaTag) {
-        return metaTags.getOrDefault(metaTag, "");
+        return metaTags.get(metaTag);
     }
 
     @Override

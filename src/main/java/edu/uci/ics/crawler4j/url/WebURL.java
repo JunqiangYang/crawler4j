@@ -207,7 +207,7 @@ public class WebURL implements Serializable {
         if (attributes == null) {
             return "";
         }
-        return attributes.getOrDefault(name, "");
+        return attributes.get(name);
     }
 
     @Override
